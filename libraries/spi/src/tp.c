@@ -1,7 +1,7 @@
 #include <nitro.h>
+#include <nitro/spi/ARM9/spi.h>
 #include <nitro/spi/ARM9/tp.h>
 #include <nitro/spi/common/config.h>
-#include "spi.h"
 
 #define TP_RAW_MAX  0x1000
 #define TP_CALIBRATE_DOT_INV_SCALE_SHIFT    (28 - TP_CALIBRATE_DOT_SCALE_SHIFT)
